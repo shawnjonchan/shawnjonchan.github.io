@@ -127,9 +127,9 @@
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          title: &ldquo;如何用 hugo 搭建个人博客&rdquo; date: 2020-05-26T09:45:52+08:00 draft: false
- 如何用 hugo 搭建个人博客  从Hugo Releases 主页下载编译好的 Hugo 二进制文件 hugo_0.xxx_Windows-64bit.zip 在本地创建一个目录存储 Hugo 的可执行文件，示例为 D:/software/Hugo 将下载的安装包解压放进 D:/software/Hugo 在 Hugo 目录中创建另一个子目录（D:/software/Hugo/sites）：存储 Hugo 项目文件 设置环境变量，将 D:/software/Hugo/ 添加到系统变量中的环境变量 Path 中即完成安装 安装好后 运行 hugo version 检测是否成功返回版本号  运行命令  运行hugo new site xxx.github.io-creator hugo 会自动生成这样一个目录结构：  ▸ archetypes/ ▸ content/ ▸ layouts/ ▸ static/ config.toml  进入生成的 xxx.github.io-creator 目录： cd xxx.github.io-creator
-  创建一个主题： git init git submodule add https://github.
+          如何用 hugo 搭建个人博客  从Hugo Releases 主页下载编译好的 Hugo 二进制文件: hugo_0.xxx_Windows-64bit.zip 在本地创建一个目录存储 Hugo 的可执行文件，示例为 D:/software/Hugo 将下载的安装包解压得到的 hugo.exe 放进 D:/software/Hugo 设置环境变量，将 D:/software/Hugo/ 添加到系统变量中的环境变量 Path 中即完成安装 安装好后,运行 hugo version 检测是否成功返回版本号  运行命令  运行hugo new site xxx.github.io-creator hugo 会自动生成这样一个目录结构：  ▸ archetypes/ ▸ content/ ▸ layouts/ ▸ static/ config.toml  进入生成的 xxx.github.io-creator 目录： cd xxx.github.io-creator
+  创建一个主题：
+git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke` `echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml   创建新的内容： hugo new posts/my-first-post.
         </div>
           <a href="http://shawnjonchan.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
